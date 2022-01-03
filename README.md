@@ -1,5 +1,5 @@
 # Bots
-Web Scraping
+Newegg Automated Purchasing Script
 
 Address and Credit card information must already be added to the Newegg account.
 
