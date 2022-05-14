@@ -11,7 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 
-# Twilio configuration (Using Twilio is optional. Use this if you want to receive text messages when bot makes a purchase.)
+# Twilio configuration (Optional but highly suggested)
 toNumber = '+1number'
 fromNumber = '+1number'
 accountSid = 'ID'
@@ -21,7 +21,7 @@ client = Client(accountSid, authToken)
 #Make Sure that credit card information is already added to Newegg/account.
 
 # Product Page
-# URL Must be Newegg website
+# Newegg URL
 url = 'https://www.newegg.com/p/pl?d=rtx+3070&N=100007709&isdeptsrh=1'
 
 def timeSleep(x, driver):
